@@ -11,7 +11,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // MongoDB connection
-const dbURI = 'mongodb+srv://singharpit185:PLmURCC84ZZ8qXpF@cluster0.veto8.mongodb.net/mydatabase?retryWrites=true&w=majority&appName=Cluster0'; // Change 'mydatabase' to your database name
+const dbURI = // Add your database url
 
 mongoose.connect(dbURI)
   .then(() => {
