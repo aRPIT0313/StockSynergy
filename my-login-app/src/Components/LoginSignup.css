@@ -1,0 +1,62 @@
+
+/* Apply background image to the login/signup page */
+.login-signup-background {
+    background-image: url('https://img.freepik.com/free-vector/finance-invest-forex-trading-doodle-elements-icon-symbol-set_56104-1029.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; /* Ensures it covers the entire page */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.log-container {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff; /* White background for the form */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Optional: for shadow effect */
+    margin-left: 37%;
+    margin-top: 10%;
+    
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.button {
+    padding: 10px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+}
+
+.toggleText {
+    margin-top: 10px;
+}
+
+.toggleLink {
+    color: #007BFF;
+    cursor: pointer;
+    text-decoration: underline;
+}

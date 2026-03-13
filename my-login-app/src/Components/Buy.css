@@ -1,0 +1,36 @@
+/* Buy Container */
+.buy-container {
+  float: right;
+  width: 500px; /* Adjust as needed */
+  margin-right: 10px; /* Optional margin */
+  background-color: white; /* Optional background */
+  padding: 10px; /* Optional padding */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 420px; /* Adjusted to ensure perfect layout */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Slideshow Container */
+.slideshow {
+  width: 100%;
+  height: 100%; /* Ensures it fills the container */
+  max-width: 500px; /* Matches buy-container width */
+  max-height: 350px; /* Keeps a good aspect ratio */
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Slideshow Image */
+.slideshow-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Ensures full image visibility without distortion */
+  border-radius: 10px;
+  transition: opacity 10s ease-in-out; /* Smooth fade transition */
+}

@@ -1,0 +1,38 @@
+.transaction-history-container {
+    background-color: black;
+    padding: 20px;
+}
+
+.title {
+    color: green;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.transaction-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: black;
+    border: 1px solid blue;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px blue;
+}
+
+.transaction-table th,
+.transaction-table td {
+    color: white;
+    padding: 10px;
+    border: 1px solid blue;
+    text-align: left;
+}
+
+.transaction-table th {
+    font-weight: bold;
+}
+
+.transaction-table tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.1); /* Lighten even rows for better readability */
+}
+
+
+  

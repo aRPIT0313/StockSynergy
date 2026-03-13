@@ -1,0 +1,84 @@
+.company-details-container {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* First section: Company name, ticker, and Add to Watchlist button */
+.company-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.company-header h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.add-watchlist-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-watchlist-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Second section: Two-column layout for quarterly change and company details */
+.company-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    background-color: #e9ecef;
+    border-radius: 8px;
+}
+
+.company-info h4 {
+    margin: 5px 0;
+}
+
+/* Third section: About the company */
+.company-about {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.company-about h4 {
+    margin-bottom: 10px;
+}
+.loading-container {
+    margin-top: 5%;
+    margin-bottom: 25%;
+    margin-left: 25%;
+    margin-right: 15%;
+}
+
+.loading-container img {
+    width: 80%; /* Full width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Scale image to maintain aspect ratio */
+}
+
+.ticker-box {
+    display: inline-block; /* Ensures it sits beside the name */
+    background-color: #4CAF50; /* Change this to your desired background color */
+    color: white; /* Change this to a contrasting text color */
+    padding: 5px 10px; /* Adds some padding around the text */
+    border-radius: 8px; /* Rounds the corners of the box */
+    margin-left: 10px; /* Adds some space between the company name and the ticker */
+    font-weight: bold;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);/* Optional: Makes the text bold */
+}

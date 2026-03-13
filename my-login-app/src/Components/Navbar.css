@@ -1,0 +1,55 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #007bff; /* Navbar background color */
+    color: white; /* Navbar text color */
+}
+
+.search-bar {
+    padding: 0.5rem; /* Some padding */
+    margin-left: 1rem; /* Margin to separate from navbar links */
+    border: none; /* No border */
+    border-radius: 15px; /* Rounded corners */
+    font-size: 1rem; /* Font size */
+    outline: none; /* Remove outline on focus */
+    width: 450px;
+
+}
+
+.navbar-kidcoins {
+    position: absolute;
+    left: 220px;
+    top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+
+
+
+.navbar-title {
+    margin: 0;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    margin-left: 1.5rem;
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-links a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,42 @@
+.stock-news {
+  height: 0.8cm; /* Set height to 0.8cm */
+  overflow: hidden; /* Hide overflow to prevent scrolling */
+  border: 0.1px solid black; /* Optional: Add a border */
+  background-color: #f9f9f9; /* Optional: Set background color */
+  position: relative;
+  border-radius: 10px; /* Position relative for absolute positioning */
+  padding-top: 5px; /* Optional: Add padding */
+}
+
+.news-ticker {
+  display: flex; /* Flex container for horizontal scrolling */
+  animation: ticker 30s linear infinite; /* Animate the ticker */
+}
+
+.headline {
+  font-size: 1.2em; /* Adjust font size */
+  margin: 0 15px; /* Margin between headlines */
+  color: black; /* Set headline color */
+  white-space: nowrap; /* Prevent text wrapping */
+  text-overflow: ellipsis; /* Add ellipsis if text overflows */
+}
+
+/* Set color for positive sentiment */
+.headline.positive {
+  color: green; /* Green color for positive sentiment */
+}
+
+/* Set color for negative sentiment */
+.headline.negative {
+  color: red; /* Red color for negative sentiment */
+}
+
+/* Keyframes for sliding effect */
+@keyframes ticker {
+  0% {
+      transform: translateX(100%); /* Start off-screen to the right */
+  }
+  100% {
+      transform: translateX(-100%); /* End off-screen to the left */
+  }
+}
