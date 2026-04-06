@@ -189,3 +189,13 @@ Lightweight Python backend ideal for API proxying and web scraping. Keeps the da
 
 ---
 
+## Results
+![Output](https://raw.githubusercontent.com/aRPIT0313/images/main/stock/home_page.png)
+![Output](https://raw.githubusercontent.com/aRPIT0313/images/main/stock/search.png)
+![Output](https://raw.githubusercontent.com/aRPIT0313/images/main/stock/history.png)
+![Output](https://raw.githubusercontent.com/aRPIT0313/images/main/stock/watchlist.png)
+![Output](https://raw.githubusercontent.com/aRPIT0313/images/main/stock/passbook.png)
+![Output](https://raw.githubusercontent.com/aRPIT0313/images/main/stock/forcast.png)
+![Output](https://raw.githubusercontent.com/aRPIT0313/images/main/stock/chatbot.png)
+![Output](https://raw.githubusercontent.com/aRPIT0313/images/main/stock/modeloutput.png)
+
